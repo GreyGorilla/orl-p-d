@@ -1,9 +1,7 @@
 {
-  "name": "jekyll-boilerplate",
+  "name": "orl-p-d",
   "version": "0.0.1",
   "main": "assets/styles.css",
   "dependencies": {
-    "jquery": "latest",
-  	"normalize-css": "latest"
   }
 }
