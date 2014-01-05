@@ -1,17 +1,8 @@
 {
-  "name": "jekyll-boilerplate",
-  "version": "0.0.0",
-  "description": "A Fancy Pants Jekyll Starting Point",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/robbschiller/jekyll-boilerplate.git"
-  },
-  "author": "robbschiller",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/robbschiller/jekyll-boilerplate/issues"
-  },
+  "name": "Orl-P-D",
+  "version": "0.0.1",
+  "description": "Product Designers in Orlando",
+
   "devDependencies": {
     "grunt": "latest",
     "grunt-jekyll": "latest",
@@ -19,4 +10,5 @@
     "grunt-concurrent": "latest",
     "grunt-contrib-watch": "latest"
   }
+
 }
