@@ -1,0 +1,48 @@
+// Import Resets
+@import "../lib/aglobof-sass-defaults/normalize";
+@import "../lib/aglobof-sass-defaults/box";
+
+// Design Prototyping
+body {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+.navbar {
+  background: #0085FF;
+  width: 100%;
+  padding: 55px;
+  .navbar--logo, .navbar--nav  {
+    display: inline-block; 
+  }
+  .navbar--logo {
+    font-size: 3rem;
+  }
+  .navbar--nav {
+    float: right;
+    padding-top: 15px;
+    .btn {
+      background: white;
+      color: #0085ff;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      padding: 5px 12px 8px 12px;
+    }
+    li {
+      margin-left: 10px;
+    }
+  }
+  a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.list-clear {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
+}

@@ -1,14 +1,13 @@
 {
-  "name": "Orl-P-D",
+  "name": "orlpd",
   "version": "0.0.1",
   "description": "Product Designers in Orlando",
-
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-jekyll": "latest",
-    "grunt-sass": "~0.9.0",
-    "grunt-concurrent": "latest",
-    "grunt-contrib-watch": "latest"
+  "devDependencies": {},
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "metalsmith": "^0.9.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-sass": "^0.3.0",
+    "metalsmith-watch": "^0.1.1"
   }
-
 }

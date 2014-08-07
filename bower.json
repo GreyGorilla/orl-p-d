@@ -1,7 +1,8 @@
 {
-  "name": "Orl-P-D",
+  "name": "orlpd",
   "version": "0.0.1",
   "main": "assets/styles.css",
   "dependencies": {
+    "aglobof-sass-defaults": "~0.1.0"
   }
 }
