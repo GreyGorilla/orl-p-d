@@ -1,0 +1,10 @@
+// Box Default
+// ==================================================
+
+html {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}

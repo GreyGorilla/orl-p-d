@@ -2,12 +2,25 @@
   "name": "orlpd",
   "version": "0.0.1",
   "description": "Product Designers in Orlando",
-  "devDependencies": {},
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/robbschiller/orl-p-d.git"
+  },
+  "scripts": {
+    "dev": "node build.js dev",
+    "build": "node build.js",
+    "deploy": "cd build/ && git init && git add . && git commit -m "deploy"; git checkout -b gh-pages && git push 'git@github.com/robbschiller/orl-p-d.git' gh-pages --force && rm -rf .git/"
+  },
   "dependencies": {
+    "connect": "^3.2.0",
     "handlebars": "^2.0.0-alpha.4",
     "metalsmith": "^0.9.0",
+    "metalsmith-ignore": "^0.1.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-sass": "^0.3.0",
-    "metalsmith-watch": "^0.1.1"
+    "metalsmith-templates": "^0.5.2",
+    "metalsmith-watch": "^0.1.1",
+    "serve-static": "^1.6.3"
   }
 }

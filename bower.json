@@ -1,8 +1,15 @@
 {
-  "name": "orlpd",
-  "version": "0.0.1",
-  "main": "assets/styles.css",
+  "name": "orl-p-d",
+  "version": "0.0.0",
+  "homepage": "orl-p-d.com",
+  "authors": [
+    "Robb Schiller <robbschiller@gmail.com>"
+  ],
+  "description": "Orlando Product Designers",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
-    "aglobof-sass-defaults": "~0.1.0"
+    "aglobof-sass.resets": "~0.0.1",
+    "aglobof-sass.animations": "~0.0.2"
   }
 }
