@@ -2,6 +2,7 @@
 > Product Designers in Orlando
 
 ## Build
+Req [Node](http://nodejs.org)
 ```
-make
+npm run dev
 ```
