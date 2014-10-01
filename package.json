@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "node build.js dev",
     "build": "node build.js",
-    "deploy": "cd build/ && git init && git add . && git commit -m "deploy"; git checkout -b gh-pages && git push 'git@github.com/robbschiller/orl-p-d.git' gh-pages --force && rm -rf .git/"
+    "deploy": "cd build && git init . && git add . && git commit -m 'deploy'; git checkout -b gh-pages && git push 'git@github.com/robbschiller/orl-p-d.git' gh-pages --force && rm -rf .git/"
   },
   "dependencies": {
     "connect": "^3.2.0",
