@@ -2,25 +2,20 @@
 <html>
   {{> head}}
   <body>
-    <header>
-      <nav class="navbar">
-        <div class="navbar--logo">
-          <a href="/">OrlPD</a>
-        </div>
-        <div class="navbar--nav">
-          <ul class="list-clear">
-            <li><a href="/">Designers</a></li>
-            <li><a href="/opportunities">Opportunities</a></li>
-            <li><a href="/resources">Resources</a></li>
-            <li><button class="btn" href="/apply">Apply</button></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      {{{ contents }}}
+    {{> header}}
+    <main class="container">
+      {{#designers}}
+        <ul class="grid grid--gutters">
+          {{#each designer}} 
+          <li class="media grid--item">
+            <img class="media--avatar" src="{{this.avatar}}">
+            <a class="media--title" href="{{this.twitter}}">{{{this.name}}}</a>
+            <a class="media--subtitle" href="this.companyURL">{{{this.company}}}</a>
+          </li>
+        {{/each}}  
+        </ul>
+      {{/designers}}
     </main>
-    <footer>
-    </footer>
+    {{> footer}}
   </body>
 </html>

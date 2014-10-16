@@ -2,47 +2,108 @@
 @import "lib/aglobof-sass.resets/normalize";
 @import "lib/aglobof-sass.resets/box";
 
-// Design Prototyping
+// Grid Settings
+$grid-gutter__width: 20px;
+$grid--item__break: 760px;
+
+// Import Grid
+@import "lib/aglobof-sass.grid/grid";
+
+// Mixins
+@mixin list-clear {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+// Scratch
 body {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
+
+.container {
+  @include list-clear;
+  padding: 55px;
+}
+
 .navbar {
-  background: #0085FF;
+  background: royalblue;
   width: 100%;
   padding: 55px;
-  .navbar--logo, .navbar--nav  {
-    display: inline-block; 
+  @media screen and (max-width: 768px) {
+    text-align: center;
   }
-  .navbar--logo {
-    font-size: 3rem;
+
+  &--logo, &--nav  {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
   }
-  .navbar--nav {
+  
+  &--logo, &--nav__link {
+    color: white;
+    text-decoration: none;
+  }
+
+  &--logo {
+    font-size: 3em;
+  }
+  
+  &--nav {
     float: right;
-    padding-top: 15px;
-    .btn {
+    padding-top: 13px;
+    @include list-clear;
+    @media screen and (max-width: 768px) {
+      float: none;
+    }
+    &__link {
+      padding: 0 15px;
+      &:hover {
+        color: darken(white, 10%);
+      }
+    }
+    &__btn {
       background: white;
-      color: #0085ff;
+      color: royalblue;
       border: none;
       border-radius: 20px;
       font-weight: bold;
       padding: 5px 12px 8px 12px;
+      text-decoration: none;
+      &:hover {
+        background: darken(white, 10%);
+      }
     }
-    li {
-      margin-left: 10px;
-    }
-  }
-  a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
   }
 }
 
-.list-clear {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline-block;
+.media {
+  max-width: 300px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 30px;
+
+  &--avatar {
+    max-width: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  &--title, &--subtitle {
+    text-decoration: none;
+  }
+
+  &--title {
+    color: royalblue;
+    font-size: 1.75em;
+    font-weight: bold;
+  }
+
+  &--subtitle {
+    color: grey;
   }
 }

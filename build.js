@@ -1,13 +1,15 @@
 'use strict'
 
-var markdown = require('metalsmith-markdown'),
+var  Metalsmith = require('metalsmith'),
+  markdown = require('metalsmith-markdown'),
   sass = require('metalsmith-sass'),
   watch = require('metalsmith-watch'),
   templates = require('metalsmith-templates'),
-  serve = require('serve-static'),
-  connect = require('connect'),
   ignore = require('metalsmith-ignore'),
-  Metalsmith = require('metalsmith');
+  permalinks = require('metalsmith-permalinks'),
+  metadata = require('metalsmith-metadata'),
+  serve = require('serve-static'),
+  connect = require('connect');
 
 var dev = false
 
@@ -17,19 +19,30 @@ process.argv.forEach(function(val, index, array) {
 
 var metalsmith = Metalsmith(__dirname)
   .use(sass())
-  .use(markdown())
+  .use(metadata({
+    designers: 'data/designers.json',
+    resources: 'data/resources.json'
+  }))
   .use(ignore([
     'templates/**/*',
+    'data/*',
     'lib/**/*',
     'lib/**/.bower.json',
     'sass/**/*'
   ]))
+  .use(markdown())
   .use(templates({
     engine: 'handlebars',
     directory: './src/templates',
     partials: {
-      head: 'partials/head'      
+      head: 'partials/head',
+      header: 'partials/header', 
+      footer: 'partials/footer'
     }
+  }))
+  .use(permalinks({
+    pattern: ':title',
+    relative: false
   }))
 
 if (dev) {
