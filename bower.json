@@ -11,6 +11,6 @@
   "dependencies": {
     "aglobof-sass.resets": "~0.0.1",
     "aglobof-sass.animations": "~0.0.2",
-    "aglobof-sass.grid": "~0.0.2"
+    "aglobof-sass.grid": "~0.1.0"
   }
 }

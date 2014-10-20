@@ -3,12 +3,16 @@
     {
       "title": "The Dribbilisation of Design",
       "url": "http://blog.intercom.io",
-      "author": "Paul Adams"
+      "author": "Paul Adams",
+      "avatar": "https://pbs.twimg.com/profile_images/632682997/34242-012_400x400.jpg",
+      "authorURL": "http://twitter.com/padday"
     },
     {
       "title": "Applied Discovery",
       "url": "http://quora.com",
-      "author": "David Cole"
+      "author": "David Cole",
+      "avatar": "https://pbs.twimg.com/profile_images/517867078393425920/GdBmERsO_400x400.png",
+      "authorURL": "http://twitter.com/irondavy"
     }
   ]
 }
