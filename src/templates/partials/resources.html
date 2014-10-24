@@ -1,4 +1,5 @@
       {{#resources}}
+      <h1>Why Product Design?</h1>
         <ul class="grid grid--gutters">
           {{#why}}
           <li class="media grid--item">
@@ -7,5 +8,15 @@
             <a class="media--subtitle" href="authorURL">{{{author}}}</a>
           </li>
           {{/why}}
+        </ul>
+      <h1>Interface Design</h1>
+        <ul class="grid grid--gutters">
+          {{#interface}}
+          <li class="media grid--item">
+            <img class="media--avatar" src="{{avatar}}">
+            <a class="media--title" href="url">{{{title}}}</a>
+            <a class="media--subtitle" href="authorURL">{{{author}}}</a>
+          </li>
+          {{/interface}}
         </ul>
       {{/resources}}
