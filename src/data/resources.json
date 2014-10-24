@@ -2,7 +2,7 @@
   "why": [
     {
       "title": "The Dribbilisation of Design",
-      "url": "http://blog.intercom.io",
+      "url": "http://blog.intercom.io/the-dribbblisation-of-design/",
       "author": "Paul Adams",
       "avatar": "https://pbs.twimg.com/profile_images/632682997/34242-012_400x400.jpg",
       "authorURL": "http://twitter.com/padday"
@@ -21,7 +21,25 @@
       "url": "http://feltpresence.com/articles/18-ui-and-capability",
       "author": "Ryan Singer",
       "avatar": "https://pbs.twimg.com/profile_images/344513261570361150/270b788a60e0adb5def646e27814f2e3_400x400.jpeg",
-      "authorURL": ""
+      "authorURL": "http://twitter.com/rjs"
+    }
+  ],
+  "research": [
+    {
+      "title": "GV Guide to Research",
+      "url": "http://www.gv.com/lib/gv-guide-to-research",
+      "author": "John Zeratsky",
+      "avatar": "https://pbs.twimg.com/profile_images/458801748782505984/DgIhaDXS_400x400.jpeg",
+      "authorURL": "http://twitter.com/jazer"
+    }
+  ],
+  "writing": [
+    {
+      "title": "Writing Microcopy",
+      "url": "http://bokardo.com/archives/writing-microcopy/",
+      "author": "Joshua Porter",
+      "avatar": "http://bokardo.com/images/joshua-porter.png",
+      "authorURL": "http://twitter.com/bokardo"
     }
   ]
 }

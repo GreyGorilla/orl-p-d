@@ -1,5 +1,6 @@
       {{#resources}}
-      <h1>Why Product Design?</h1>
+      <div class="section">
+        <h1>Why Product Design?</h1>
         <ul class="grid grid--gutters">
           {{#why}}
           <li class="media grid--item">
@@ -9,8 +10,10 @@
           </li>
           {{/why}}
         </ul>
-      <h1>Interface Design</h1>
-        <ul class="grid grid--gutters">
+      </div>
+      <div class="section">
+        <h1>Interface Design</h1>
+        <ul class="grid grid--gutters section">
           {{#interface}}
           <li class="media grid--item">
             <img class="media--avatar" src="{{avatar}}">
@@ -19,4 +22,29 @@
           </li>
           {{/interface}}
         </ul>
-      {{/resources}}
+      </div>
+      <div class="section">
+        <h1>Research</h1>
+        <ul class="grid grid--gutters section">
+          {{#research}}
+          <li class="media grid--item">
+            <img class="media--avatar" src="{{avatar}}">
+            <a class="media--title" href="url">{{{title}}}</a>
+            <a class="media--subtitle" href="authorURL">{{{author}}}</a>
+          </li>
+          {{/research}}
+        </ul>
+      </div>
+      <div class="section">
+        <h1>Writing</h1>
+        <ul class="grid grid--gutters section">
+          {{#writing}}
+          <li class="media grid--item">
+            <img class="media--avatar" src="{{avatar}}">
+            <a class="media--title" href="url">{{{title}}}</a>
+            <a class="media--subtitle" href="authorURL">{{{author}}}</a>
+          </li>
+          {{/writing}}
+        </ul>
+      </div>
+    {{/resources}}
