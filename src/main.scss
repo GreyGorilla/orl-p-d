@@ -1,40 +1,11 @@
-// Serrrssss
-// =========
+// Sarss
+// -----
 
-// Settings
-// -------------------------------------------------------
-// Define some settings before all the things
-// -------------------------------------------------------
-// Grid Vars
-$grid-gutter__width: 20px;
-$grid--item__break: 760px;
-
-// Mixins
-@mixin list-clear {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    li {
-      display: inline-block;
-    }
-  }
-}
-
-// Import Resets
-// -------------------------------------------------------
-@import "lib/aglobof-sass.resets/normalize";
-@import "lib/aglobof-sass.resets/box";
-
-// Import Grid
-// -------------------------------------------------------
-@import "lib/aglobof-sass.grid/grid";
+@import "../bower_components/aglobof-sass/glob";
+@import "../bower_components/flex.grid/grid";
 
 // Scratch
-// ---------------------------------------------------------
-// Add scratch styles here until this maybe gets more
-// organized at some point?
-// --------------------------------------------------------
+// -------------------------------------------------------------------
 body {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   h1 {
@@ -47,92 +18,93 @@ body {
   padding: 55px;
 }
 
-.navbar {
+.Navbar {
   background: royalblue;
   width: 100%;
-  padding: 55px;
+  padding: 60px;
   @media screen and (max-width: 768px) {
     text-align: center;
   }
 
-  &--logo, &--nav  {
+  &-logo, &-nav  {
     display: inline-block;
     font-weight: bold;
     vertical-align: middle;
   }
   
-  &--logo, &--nav__link {
+  &-logo, &-navLink {
     color: white;
     text-decoration: none;
   }
 
-  &--logo {
+  &-logo {
     font-size: 3em;
   }
   
-  &--nav {
+  &-nav {
     float: right;
     padding-top: 18px;
-    @include list-clear;
+    @include list-clear-inline;
     @media screen and (max-width: 768px) {
       float: none;
     }
-    &__link {
+    &Link {
       margin-right: 15px;
       &:hover {
-        border-bottom: 3px solid #fff;
-        padding-bottom: 5px;
+        color: darken(white, 20%);
+      }
+      &:active {
+        color: firebrick;
       }
     }
-    &__btn {
+    &Btn {
       background: white;
       color: royalblue;
       border: none;
       border-radius: 20px;
       font-weight: bold;
-      padding: 5px 12px 8px 12px;
+      padding: 8px 16px 10px 16px;
       text-decoration: none;
       &:hover {
-        background: darken(white, 10%);
+        background: firebrick;
+        color: white;
       }
     }
   }
 }
 
-.media {
-  max-width: 300px;
+.Media {
+  max-width: 520px;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 
-  &--avatar {
+  &-avatar {
     max-width: 50px;
     float: left;
     margin-right: 10px;
+    height: 50px;
   }
 
-  &--title, &--subtitle {
+  &-title, &-subtitle {
     text-decoration: none;
     &:hover {
       text-decoration: underline;
     }
   }
 
-  &--title {
+  &-title {
     color: royalblue;
     font-size: 1.5em;
     font-weight: bold;
   }
 
-  &--subtitle {
+  &-subtitle {
     color: grey;
+    display: block;
   }
 }
 
-.section {
+.Section {
   margin-bottom: 5em;  
-}
-
-.js-active {
-  border-bottom: 3px solid #fff;
-  padding-bottom: 5px;  
 }

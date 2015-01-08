@@ -1,14 +1,15 @@
 'use strict'
 
-var  Metalsmith = require('metalsmith'),
-  sass = require('metalsmith-sass'),
-  watch = require('metalsmith-watch'),
-  templates = require('metalsmith-templates'),
-  permalinks = require('metalsmith-permalinks'),
-  ignore = require('metalsmith-ignore'),
-  metadata = require('metalsmith-metadata'),
-  serve = require('serve-static'),
-  connect = require('connect');
+var Metalsmith = require('metalsmith');
+var sass = require('metalsmith-sass');
+var watch = require('metalsmith-watch');
+var templates = require('metalsmith-templates');
+var permalinks = require('metalsmith-permalinks');
+var ignore = require('metalsmith-ignore');
+var metadata = require('metalsmith-metadata');
+var autoprefixer = require('metalsmith-autoprefixer');
+var serve = require('serve-static');
+var connect = require('connect');
 
 var dev = false
 
@@ -17,9 +18,8 @@ process.argv.forEach(function(val, index, array) {
 })
 
 var metalsmith = Metalsmith(__dirname)
-  .use(sass({
-    outputStyle: 'expanded'
-  }))
+  .use(sass())
+  .use(autoprefixer())
   .use(metadata({
     designers: 'data/designers.json',
     resources: 'data/resources.json'
@@ -27,8 +27,6 @@ var metalsmith = Metalsmith(__dirname)
   .use(ignore([
     'templates/**/*',
     'data/*',
-    'lib/**/*',
-    'lib/**/.bower.json',
     'sass/**/*'
   ]))
   .use(templates({
