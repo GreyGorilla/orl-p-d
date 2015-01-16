@@ -3,8 +3,18 @@
   {{> head}}
   <body>
     {{> header}}
-    <main class="container">
-      {{> designers}} 
+    <main class="Container">
+      {{#designers}}
+        <ul>
+          {{#designer}} 
+          <li class="Media">
+            <img class="Media-avatar" src="{{avatar}}">
+            <a class="Media-title" href="{{twitter}}">{{{name}}}</a>
+            <a class="Media-subtitle" href="{{companyURL}}">{{{company}}}</a>
+          </li>
+          {{/designer}}  
+        </ul>
+      {{/designers}}
     </main>
     {{> footer}}
   </body>

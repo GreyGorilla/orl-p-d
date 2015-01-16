@@ -1,11 +1,10 @@
 // Sarss
-// -----
+// ----------------------------------------------------------------------
 
+// Import Deps
 @import "../bower_components/aglobof-sass/glob";
-@import "../bower_components/flex.grid/grid";
 
 // Scratch
-// -------------------------------------------------------------------
 body {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   h1 {
@@ -13,17 +12,13 @@ body {
   }
 }
 
-.container {
-  @include list-clear;
-  padding: 55px;
-}
-
 .Navbar {
   background: royalblue;
   width: 100%;
   padding: 60px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 640px) {
     text-align: center;
+    padding: 20px;
   }
 
   &-logo, &-nav  {
@@ -45,8 +40,9 @@ body {
     float: right;
     padding-top: 18px;
     @include list-clear-inline;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 640px) {
       float: none;
+      padding-bottom: 10px;
     }
     &Link {
       margin-right: 15px;
@@ -73,11 +69,17 @@ body {
   }
 }
 
+.Container {
+  @include list-clear;
+  padding: 55px;
+}
+
 .Media {
-  max-width: 520px;
+  float: left;
+  width: 400px;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin: 0 30px 30px 0;
 
   &-avatar {
     max-width: 50px;
@@ -106,5 +108,59 @@ body {
 }
 
 .Section {
+  @include clearfix;
   margin-bottom: 5em;  
 }
+
+.Form {
+  input, label, button {
+    display: block;
+  } 
+  label {
+    color: royalblue;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0 4px;
+  }
+  span {
+    color: red;
+  }
+  small {
+    color: royalblue;
+  }
+  input {
+    padding: 8px;
+    border: 1px solid #333;
+    width: 300px;
+  }
+  button {
+    color: white;
+    background: royalblue;
+    width: 300px;
+    border-radius: 20px;
+    padding: 12px;
+    border: 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

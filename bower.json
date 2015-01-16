@@ -9,7 +9,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "aglobof-sass": "latest",
-    "flex.grid": "~1.1.0"
+    "aglobof-sass": "~1.1.0"
   }
 }
