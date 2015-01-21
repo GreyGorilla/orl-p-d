@@ -1,8 +1,15 @@
 {
   "designer": [
     {
+      "name": "Roman Rusinov",
+      "avatar": "https://pbs.twimg.com/profile_images/497550884927053824/LAzq_4EU_400x400.jpeg",
+      "company": "SightPlan",
+      "companyURL": "http://sightplan.com",
+      "twitter": "http://twitter.com/themanro"
+    },
+    {
       "name": "Robb Schiller",
-      "avatar": "https://pbs.twimg.com/profile_images/507657133996113920/-ocpN1it_400x400.jpeg",
+      "avatar": "https://pbs.twimg.com/profile_images/555753424642273280/agGm2rln_400x400.png",
       "company": "Independent",
       "companyURL": "http://robbschiller.com",
       "twitter": "http://twitter.com/robbschiller"
