@@ -74,6 +74,7 @@ body {
 
 .Container {
   @include list-clear;
+  @include clearfix;
   padding: 55px;
   @media screen and (max-width: 540px) {
     padding: 30px;
@@ -198,4 +199,22 @@ body {
       text-decoration: underline;
     }
   }
+}
+
+.Footer {
+  p {
+    color: #999;
+    width: 480px;
+    margin: 55px;
+    line-height: 24px;
+  }
+  a {
+    color: royalblue;
+  }
+}
+
+.Bottom {
+  background: royalblue;
+  height: 400px;
+  margin-top: 150px;
 }
