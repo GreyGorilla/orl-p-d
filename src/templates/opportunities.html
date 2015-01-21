@@ -4,7 +4,12 @@
   <body>
     {{> header}}
     <main class="Container">
-    {{#opportunities}}
+      <div class="Block">
+        <h4>Find Designers in Orlando.</h4>
+        <p>Are you a startup, agency, or recruiter looking for product designers in Orlando?</p>
+        <a class="Block-btn" href="/post/">Post a Position<span> • It's Free!</span></a>
+      </div>
+      {{#opportunities}}
       <ul>
         {{#opportunity}}
         <li>
@@ -14,6 +19,8 @@
         </li>
         {{/opportunity}}
       </ul>
-    {{/opportunities}}
+      {{/opportunities}}
+    </main>
+    {{> footer}}
   </body>
 </html>

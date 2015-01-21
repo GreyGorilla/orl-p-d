@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    {{> header}}
+    <main class="Container">
+      <h2>Post a Job to OrlPD</h2>
+      <form class="Form" accept-charset="UTF-8" action="http://formspree.io/robbschiller@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://orl-p-d.com/thanks" />
+        <label>Company Name <span>*</span></label>
+        <input type="text" name="company-name">
+        <label>Company Twitter URL <span>*</span></label>
+        <input type="text" name="company-twitter">
+        <label>Company Website URL <span>*</span></label>
+        <input type="email" name="company-website">
+        <label>Your Name <span>*</span><small> (Will not be published)</small></label>
+        <input type="text" name="name">
+        <label>Your Email <span>*</span><small> (Will not be published)</small></label>
+        <input type="text" name="email">
+        <label>Job Position Title <span>*</span></label>
+        <input type="text" name="position-title">
+        <label>Job Posting URL <span>*</span><small> (e.g. yourcompany.com/jobs/designer)</small></label>
+        <input type="text" name="posting-URL">
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </main>
+    {{> footer}}
+  </body>
+</html>
