@@ -1,8 +1,15 @@
 {
   "designer": [
     {
+      "name": "Blake Everingham",
+      "avatar": "https://pbs.twimg.com/profile_images/562074551170134017/YCbWSq0x_400x400.jpeg",
+      "company": "SightPlan",
+      "companyURL": "http://sightplan.com",
+      "twitter": "http://twitter.com/everomp"
+    },
+    {
       "name": "Paul Hershey",
-      "avatar": "https://pbs.twimg.com/profile_images/524038624359112704/V2IDYMZW_400x400.png",
+      "avatar": "https://pbs.twimg.com/profile_images/559222630167764993/O7zHuIxb_400x400.jpeg",
       "company": "Riptide Software",
       "companyURL": "http://www.riptidesoftware.com",
       "twitter": "http://twitter.com/paulhershey"
