@@ -27,7 +27,7 @@
       "title": "UI and Capability",
       "url": "http://feltpresence.com/articles/18-ui-and-capability",
       "author": "Ryan Singer",
-      "avatar": "https://pbs.twimg.com/profile_images/344513261570361150/270b788a60e0adb5def646e27814f2e3_400x400.jpeg",
+      "avatar": "https://pbs.twimg.com/profile_images/542046114791178240/n3uSJI7z_400x400.jpeg",
       "authorURL": "http://twitter.com/rjs"
     }
   ],
@@ -41,6 +41,13 @@
     }
   ],
   "writing": [
+    {
+      "title": "Interface Writing",
+      "url": "http://nicolefenton.com/interface-writing/",
+      "author": "Nicole Fenton",
+      "avatar": "https://pbs.twimg.com/profile_images/562617465272676352/ZZTsTVav_400x400.jpeg",
+      "authorURL": "https://twitter.com/nicoleslaw" 
+    },
     {
       "title": "Writing Microcopy",
       "url": "http://bokardo.com/archives/writing-microcopy/",
