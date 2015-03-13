@@ -1,6 +1,20 @@
 {
   "designer": [
     {
+      "name": "Andres Aranguibel",
+      "avatar": "https://pbs.twimg.com/profile_images/472211762733801472/oFLpkRQ0_400x400.jpeg",
+      "company": "NeoReach",
+      "companyURL": "http://neoreach.com",
+      "twitter": "https://twitter.com/designerandres"
+    },
+    {
+      "name": "Lee Waters",
+      "avatar": "https://pbs.twimg.com/profile_images/459430817492520960/nWhahrhc_400x400.jpeg",
+      "company": "Tandem",
+      "companyURL": "http://intandem.io",
+      "twitter": "https://twitter.com/leec3"
+    },
+    {
       "name": "Justin Haldane",
       "avatar": "https://pbs.twimg.com/profile_images/1455416919/avatar_400x400.png",
       "company": "Viewpost",
