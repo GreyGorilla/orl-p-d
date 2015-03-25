@@ -10,15 +10,15 @@
         <a class="Block-btn" href="/post/">Post a Position<span> • It's Free!</span></a>
       </div>
       {{#opportunities}}
-      <ul>
-        {{#opportunity}}
-        <li>
-          <img></a>
-          <a></a>
-          <a></a>
-        </li>
-        {{/opportunity}}
-      </ul>
+        <ul>
+          {{#opportunity}}
+            <li class="Media Long">
+              <img class="Media-avatar" src="{{avatar}}">
+              <a class="Media-title" href="{{companyURL}}">{{{company}}}</a>
+              <a class="Media-subtitle" href="{{jobURL}}">is looking for a <b>{{{jobTitle}}} →</b></a>
+            </li>
+          {{/opportunity}}
+        </ul>
       {{/opportunities}}
     </main>
     {{> footer}}

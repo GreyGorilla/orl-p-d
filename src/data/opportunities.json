@@ -1,7 +1,11 @@
 {
   "opportunity": [
     {
-      "": ""
+      "company": "Viewpost",
+      "companyURL": "http://viewpost.com",
+      "avatar": "https://pbs.twimg.com/profile_images/513017050260709377/RcvuR-Fs_400x400.jpeg",
+      "jobTitle": "UX Designer",
+      "jobURL": "http://viewpost.hrmdirect.com/employment/job-opening.php?req=243162&&cust_sort1=15410&#job"
     }
   ]
 }
