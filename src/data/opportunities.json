@@ -1,6 +1,13 @@
 {
   "opportunity": [
     {
+      "company": "Ascentus",
+      "companyURL": "http://ascentus.com",
+      "avatar": "https://pbs.twimg.com/profile_images/448889282854678528/2oFDk6xt_400x400.jpeg",
+      "jobTitle": "Designer/Developer",
+      "jobURL": "http://www.ascentus.com/job/designer-developer/"
+    },
+    {
       "company": "Viewpost",
       "companyURL": "http://viewpost.com",
       "avatar": "https://pbs.twimg.com/profile_images/513017050260709377/RcvuR-Fs_400x400.jpeg",
