@@ -182,6 +182,10 @@ body {
   float: right;
   text-align: center;
   padding: 32px;
+  @media screen and (max-width: 959px) {
+    float: left;
+    margin-bottom: 20px;
+  }
   
   h4 {
     margin: 0;
@@ -189,7 +193,7 @@ body {
   }
 
   p {
-    width: 300px;
+    max-width: 280px;
     color: #999;
     line-height: 24px;
     margin-bottom: 24px;
