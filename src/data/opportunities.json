@@ -1,6 +1,13 @@
 {
   "opportunity": [
     {
+      "company": "Symantec",
+      "companyURL": "http://symantec.com",
+      "avatar": "https://pbs.twimg.com/profile_images/461122663830650880/iMMm2Jb6_400x400.png",
+      "jobTitle": "UX Designer",
+      "jobURL": "https://symantec.wd1.myworkdayjobs.com/en-US/careers/job/Roseville-MN/User-Interface-Designer_22421-1"
+    },
+    {
       "company": "Ascentus",
       "companyURL": "http://ascentus.com",
       "avatar": "https://pbs.twimg.com/profile_images/448889282854678528/2oFDk6xt_400x400.jpeg",
