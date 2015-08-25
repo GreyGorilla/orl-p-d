@@ -22,7 +22,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.1",
     "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-sass": "^0.3.0",
+    "metalsmith-sass": "^0.3.1",
     "metalsmith-serve": "0.0.3",
     "metalsmith-templates": "^0.5.2",
     "metalsmith-watch": "^0.1.1",

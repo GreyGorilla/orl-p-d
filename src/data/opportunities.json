@@ -1,12 +1,20 @@
 {
   "opportunity": [
     {
+      "company": "Viewpost",
+      "companyURL": "http://viewpost.com",
+      "avatar": "https://pbs.twimg.com/profile_images/513017050260709377/RcvuR-Fs_400x400.jpeg",
+      "jobTitle": "UX/UI Designer",
+      "jobURL": "http://viewpost.hrmdirect.com/employment/job-opening.php?req=287531&&cust_sort1=15410#job"
+    },
+    {
       "company": "Houghton Mifflin Harcourt",
       "companyURL": "http://hmhco.com",
       "avatar": "https://pbs.twimg.com/profile_images/378800000788991754/c8b37733b5512fbeb3af8e0d9718b1a7_400x400.jpeg",
       "jobTitle": "Senior Design Architect",
       "jobURL": "http://careers.hmhco.com/jobsearch/job-details/senior-design-architect-ux/7769/"
-    },   {
+    },
+    {
       "company": "Symantec",
       "companyURL": "http://symantec.com",
       "avatar": "https://pbs.twimg.com/profile_images/461122663830650880/iMMm2Jb6_400x400.png",
